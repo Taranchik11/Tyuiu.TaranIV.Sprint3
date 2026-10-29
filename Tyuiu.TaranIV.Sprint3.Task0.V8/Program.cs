@@ -1,4 +1,4 @@
-﻿using Tyuiu.TaranIV.Sprint3.V8.Lib;
+﻿using Tyuiu.TaranIV.Sprint3.Task0.V8.Lib;
 
 Console.Title = "Спринт #3 | Выполнил: Таран И. В. | ПКТб-26-1";
 Console.WriteLine("***************************************************************************");

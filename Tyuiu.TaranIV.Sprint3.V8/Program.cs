@@ -20,7 +20,7 @@ DataService ds = new DataService();
 double value = 0.25;
 int startValue = 1;
 int stopValue = 10;
-double res = ds.GetMultiplySeries(value,startValue,stopValue);
+double res = ds.GetMultiplySeries(value, startValue, stopValue);
 
 Console.WriteLine($"Переменная a = {value}");
 Console.WriteLine($"Старт шага = {startValue}");

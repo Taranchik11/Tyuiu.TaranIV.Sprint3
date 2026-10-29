@@ -16,9 +16,7 @@ namespace Tyuiu.TaranIV.Sprint3.V8.Test
             double wait = -0.886281;
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
 
-            Assert.AreEqual(wait, res, 0.000001); ;
-
-
+            Assert.AreEqual(wait, res, 0.000001);
         }
     }
 }

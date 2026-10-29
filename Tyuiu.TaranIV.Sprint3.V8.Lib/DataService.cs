@@ -13,6 +13,7 @@ namespace Tyuiu.TaranIV.Sprint3.V8.Lib
                 sumSeries *= Math.Pow(value, i) + 1;
             }
 
+
             return sumSeries * Math.Cos(4);
         }
     }

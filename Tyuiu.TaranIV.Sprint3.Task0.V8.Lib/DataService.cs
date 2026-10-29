@@ -10,11 +10,10 @@ namespace Tyuiu.TaranIV.Sprint3.Task0.V8.Lib
 
             for (int i = startValue; i <= stopValue; i++)
             {
-                sumSeries *= Math.Pow(value, i) + 1;
+                sumSeries *= (Math.Pow(value, i) + 1) * Math.Cos(4);
             }
 
-
-            return sumSeries * Math.Cos(4);
+            return Math.Round(sumSeries, 3);
         }
     }
 }

@@ -13,10 +13,10 @@ namespace Tyuiu.TaranIV.Sprint3.Task0.V8.Test
             int startValue = 1;
             int stopValue = 10;
 
-            double wait = -0.886281;
+            double wait = 0.019;
             double res = ds.GetMultiplySeries(value, startValue, stopValue);
 
-            Assert.AreEqual(wait, res, 0.000001);
+            Assert.AreEqual(wait, res);
         }
     }
 }

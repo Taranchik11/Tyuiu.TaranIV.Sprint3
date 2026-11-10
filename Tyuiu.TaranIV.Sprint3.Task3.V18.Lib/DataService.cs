@@ -7,12 +7,12 @@ namespace Tyuiu.TaranIV.Sprint3.Task3.V18.Lib
         public string ReplaceNumOnChar(string value, char item)
         {
 
-            foreach (char ch in value) 
+            foreach (char ch in value)
             {
-                if (Char.IsDigit(ch)) 
+                if (Char.IsDigit(ch))
                 {
-                    value = value.Replace(ch, item);        
-                } 
+                    value = value.Replace(ch, item);
+                }
             }
 
             return value;

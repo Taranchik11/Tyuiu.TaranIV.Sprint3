@@ -20,5 +20,5 @@ namespace Tyuiu.TaranIV.Sprint3.Task7.V10.Lib
 
             return valueArray;
         }
-    }
+    } 
 }

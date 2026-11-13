@@ -11,11 +11,10 @@ namespace Tyuiu.TaranIV.Sprint3.Task5.V10.Lib
             {
                 for (int j = startValue2; j <= stopValue2; j++) //k
                 {
-                    result += Math.Pow(x, 3) * j;
+                    result += (Math.Pow(x, 3) * j) + 2;
                 }
             }
 
-            result += 2;
 
             return Math.Round(result ,3);
         }

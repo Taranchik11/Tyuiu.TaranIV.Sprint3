@@ -18,7 +18,7 @@ namespace Tyuiu.TaranIV.Sprint3.Task5.V10.Test
 
             double result = ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
             
-            double wait = 20627.000;
+            double wait = 20685.000;
 
             Assert.AreEqual(wait, result);
         }
